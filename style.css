@@ -1,0 +1,279 @@
+/* default css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img{
+    max-width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* header */
+
+.header{
+    background-color: #22C3A3;
+    padding: 30px 0;
+}
+
+.header_left{
+    float: left;
+    width: 30%;
+    color: white;
+}
+
+.header_left span {
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.header_right{
+    float: right;
+    width: 70%;
+}
+
+.header_right ul{
+    text-align: right;
+    margin-right: 35px;
+}
+.header_right ul li{
+    display: inline-block;
+}
+.header_right ul li a {
+    text-decoration: none;
+    color: #DCEBE7;
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+/* banner section */
+
+.banner {
+    background-image: url(https://i.ibb.co/Ld8MpGn/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -67px;
+    background-size: cover;
+    padding: 230px 0;
+    text-align: center;
+}
+
+.banner h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.banner h5 {
+    color: #DCEBE7;
+    font-size: 20px;
+    padding-bottom: 61px;
+    box-sizing: border-box;
+}
+
+.banner_button a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    border: 2px solid #DCEBE7;
+    border-radius: 5px;
+}
+
+/* service section */
+
+.service {
+    padding: 35px 0 134px 0;
+    margin: auto;
+    border-bottom: 2px solid #22C3A3 ;
+}
+
+.service_title{
+    margin-bottom: 20px;
+}
+.service_title h2 {
+    font-size: 35px;
+}
+
+.service_details{}
+.service_details p{
+    font-family: sans-serif;
+    color: #868a88;
+}
+
+.service_item {
+    float: left;
+    width: 16%;
+    margin-left: 93px;
+    margin-top: 150px;
+}
+
+.icon{
+    margin-bottom: 25px;
+}
+
+.icon span{
+    font-size: 35px;
+    color: #22C3A3;
+   
+}
+.ser_title{
+    margin-bottom: 10px;
+}
+
+.ser_title h2{
+    font-family: sans-serif;
+    color: #5F5F5F;
+    font-size: 20px;
+}
+
+.ser_details p{
+    font-family: sans-serif;
+  
+    color: #868a88;
+}
+
+.services{
+    text-align: center;
+}
+
+/* about */
+
+.about{
+    padding: 60px 0;
+}
+
+.about_title{
+    margin-bottom: 20px;
+}
+
+.about_title h2{
+   font-size: 30px;
+}
+
+.about_details p{
+    color: #868a88;
+    font-family: sans-serif;
+}
+
+.about_left{
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.about_right {
+    float: right;
+    width: 45%;
+    margin-top: 60px;
+    margin-right: 76px;
+}
+
+.about_notice{
+    text-align: left;
+}
+
+.n_head {
+    margin-bottom: 20px;
+}
+.n_head span {
+    color: #5F5F5F;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.n_details{}
+.n_details p {
+    font-family: sans-serif;
+    color: #868a88;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 11px;
+}
+
+/* contact_section */
+
+.contact{
+    padding: 75px 0;
+    background-color: #F6F6F6;
+}
+
+
+.contact_heading{
+    margin-bottom: 20px;
+}
+.contact_heading h2{
+  
+    font-size: 35px;
+}
+
+.contact_details p{
+    color: #868a88;
+    font-family: sans-serif;
+}
+
+.contact_item {
+    float: left;
+    width: 30%;
+    margin-top: 80px;
+}
+
+.contact_icon{
+    color:#22C3A3 ;
+    margin-bottom: 10px;
+}
+
+.address span{
+    font-family: sans-serif;
+    color: #868a88;
+}
+
+.contacts {
+    margin-left: 134px;
+}
+
+
+/* social menu */
+
+.social{
+    background-color: #22C3A3;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social_menu li{
+    display: inline-block;
+}
+
+.social_menu li a{
+    color: white;
+    margin-right: 15px;
+
+}
+
+/* footer section */
+
+.footer{
+    background-color: #2E2F31;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.copyright span {
+    font-family: sans-serif;
+    color: #868a88;
+    font-size: 15px;
+    font-weight: 600;
+}
